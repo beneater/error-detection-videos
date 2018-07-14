@@ -19,6 +19,16 @@ This is the first video in the series and covers mostly setup for the future vid
  * [`/receiver`](/receiver)
 
 
+## Parity checking
+
+[<img src=https://img.youtube.com/vi/MgkhrBSjhag/maxresdefault.jpg width=360/>](https://www.youtube.com/watch?v=MgkhrBSjhag)
+
+Parity checking is a basic technique for detecting errors in data transmission. This video explains how it works and walks through building hardware to compute and check parity. The receiver code is identical to the previous video. The transmitter is only slightly different:
+
+ * [`/transmitter-parity`](/transmitter-parity)
+ * [`/receiver`](/receiver)
+
+
 ## More?
 
 The rest of the videos are coming soon!
