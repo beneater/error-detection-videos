@@ -39,7 +39,7 @@ void onClockPulse() {
   bit_position += 1;
 
   if (bit_position == 8) {
-    strncat(message, &rx_byte, 1);
+    strncat(message, (const char *)&rx_byte, 1);
   }
   
   update_lcd = true;
