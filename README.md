@@ -1,6 +1,6 @@
 # Error detection video series
 
-Copyright 2018 Ben Eater
+Copyright 2018-2019 Ben Eater
 
 This code is [MIT licensed](http://en.wikipedia.org/wiki/MIT_License).
 
@@ -27,6 +27,12 @@ Parity checking is a basic technique for detecting errors in data transmission. 
 
  * [`/transmitter-parity`](/transmitter-parity)
  * [`/receiver`](/receiver)
+
+## Checksums and Hamming distance
+
+[<img src=https://img.youtube.com/vi/ppU41c15Xho/maxresdefault.jpg width=360/>](https://www.youtube.com/watch?v=ppU41c15Xho)
+
+The term "checksum" can refer to all sorts of different error detection codes. This video explains how some are better than others. What types of errors are they good at detecting? And how do you calculate different types of checksums? There's no code for this video.
 
 
 ## More?
