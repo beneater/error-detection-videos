@@ -34,6 +34,12 @@ Parity checking is a basic technique for detecting errors in data transmission. 
 
 The term "checksum" can refer to all sorts of different error detection codes. This video explains how some are better than others. What types of errors are they good at detecting? And how do you calculate different types of checksums? There's no code for this video.
 
+## How do CRCs work?
+
+[<img src=https://img.youtube.com/vi/izG7qT0EpBw/maxresdefault.jpg width=360/>](https://www.youtube.com/watch?v=izG7qT0EpBw)
+
+CRC (cyclic redundancy check) is one of the most common methods of error detection. It uses some interesting mathematical tricks to guarantee that it can catch certain kinds of errors. How does it work? There's no code for this video.
+
 
 ## More?
 
