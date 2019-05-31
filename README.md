@@ -40,7 +40,11 @@ The term "checksum" can refer to all sorts of different error detection codes. T
 
 CRC (cyclic redundancy check) is one of the most common methods of error detection. It uses some interesting mathematical tricks to guarantee that it can catch certain kinds of errors. How does it work? There's no code for this video.
 
+## Hardware build: CRC calculation
 
-## More?
+[<img src=https://img.youtube.com/vi/sNkERQlK8j8/maxresdefault.jpg width=360/>](https://www.youtube.com/watch?v=sNkERQlK8j8)
 
-The rest of the videos are coming soon!
+CRC (cyclic redundancy check) involves some intimidating math. But it turns out that it can all be done with some fairly simple hardware. In this video, I build the hardware to compute and verify CRCs. The receiver code is still identical to the first video. The transmitter code includes some additional control signals to push data into the CRC circuit and retrieve the result:
+
+ * [`/transmitter-crc`](/transmitter-crc)
+ * [`/receiver`](/receiver)
